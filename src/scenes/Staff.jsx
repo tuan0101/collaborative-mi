@@ -1,9 +1,6 @@
-import LineGradient from "../hooks/LineGradient";
-import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 
 const Staff = () => {
-  const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section id="staff" className="pt-10 pb-24">
       <div>
@@ -57,7 +54,7 @@ const Staff = () => {
           <div className="flex justify-center ">
             <div className="z-10">
               < img class="w-64 h-64 rounded-full object-contain" 
-              src="/assets/photos/alex2.jpg" alt="Rounded avatar" />
+              src="/assets/photos/alex.jpg" alt="Rounded avatar" />
             </div>
           </div>
           <div className="text-center">

@@ -1,5 +1,4 @@
 
-
 const History = ({ setSelectedPage }) => {
   return (
     <section

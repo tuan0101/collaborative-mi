@@ -1,12 +1,9 @@
-import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const newTab= (url) => {
     window.open(url)
 }
 const Donation = ({ setSelectedPage }) => {
-    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
     return (
         <section
             id="donate"
@@ -62,7 +59,7 @@ const Donation = ({ setSelectedPage }) => {
                                 className=" mx-auto w-[30%]
                             hover:filter hover:saturate-200 transition duration-500 z-10"
                                 alt="profile"
-                                src="assets/photos/paypal.png"
+                                src="assets/photos/paypal.PNG"
                             />
                         </button>
 

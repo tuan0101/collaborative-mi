@@ -14,7 +14,6 @@ import Youtube from "./scenes/Youtube";
 import { motion } from "framer-motion";
 import LineGradient from "./hooks/LineGradient";
 import { useState, useEffect } from "react";
-import useMediaQuery from "./hooks/useMediaQuery";
 
 
 
@@ -22,7 +21,6 @@ import useMediaQuery from "./hooks/useMediaQuery";
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
-  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   const slides = [
      "assets/photos/slide2.jpg",
      "assets/photos/slide3.jpg",
@@ -99,7 +97,7 @@ function App() {
         <Carousel>
           {[
             ...slides.map((s) =>
-            <img src={s}/>)
+            <img src={s} alt="tony"/>)
           ]}
         </Carousel>
       </div>
