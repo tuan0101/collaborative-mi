@@ -59,7 +59,7 @@ const Donation = ({ setSelectedPage }) => {
                                 className=" mx-auto w-[30%]
                             hover:filter hover:saturate-200 transition duration-500 z-10"
                                 alt="profile"
-                                src="assets/photos/paypal.PNG"
+                                src="assets/photos/paypal.png"
                             />
                         </button>
 

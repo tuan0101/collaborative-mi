@@ -24,7 +24,7 @@ const Staff = () => {
           <div className="flex justify-center ">
             <div className="z-10">
             < img class="w-64 h-64 rounded-full object-contain"
-                src="/assets/photos/tony2.jpg" alt="Rounded avatar" />
+                src="assets/photos/tony.jpg" alt="Rounded avatar" />
             </div>
           </div>
           <div className="text-center object-center">
@@ -54,7 +54,7 @@ const Staff = () => {
           <div className="flex justify-center ">
             <div className="z-10">
               < img class="w-64 h-64 rounded-full object-contain" 
-              src="/assets/photos/alex.jpg" alt="Rounded avatar" />
+              src="assets/photos/alex.jpg" alt="Rounded avatar" />
             </div>
           </div>
           <div className="text-center">
@@ -81,7 +81,7 @@ const Staff = () => {
           <div className="flex justify-center ">
             <div className="z-10">
               < img class="w-64 h-64 rounded-full object-contain" 
-              src="/assets/photos/vitaly2.jpg" alt="Rounded avatar" />
+              src="assets/photos/vitaly.jpg" alt="Rounded avatar" />
             </div>
           </div>
           <div className="text-center">
@@ -110,7 +110,7 @@ const Staff = () => {
           <div className="flex justify-center ">
             <div className="z-10">
             < img class="w-64 h-64 rounded-full object-contain"
-                src="/assets/photos/tam2.jpg" alt="Rounded avatar" />
+                src="assets/photos/tam.jpg" alt="Rounded avatar" />
             </div>
           </div>
           <div className="text-center object-center">
