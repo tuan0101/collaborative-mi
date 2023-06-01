@@ -59,7 +59,7 @@ function App() {
         />
       </div>
 
-      <div className="text-5xl font-playfair z-10 text-center py-5">
+      <div className="text-5xl font-playfair font-semibold z-10 text-center py-5">
         About Us
       </div>
       <div className="w-5/6 mx-auto xs:mt-2">
