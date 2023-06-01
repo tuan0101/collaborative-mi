@@ -9,7 +9,7 @@ const Landing = ({ setSelectedPage }) => {
         <div className="relative bg-gradient-to-t from-purple-900 to-green-700 ">
             <img
                 alt="profile"
-                className="hover:filter hover:saturate-200 transition duration-500 z-10  " //mix-blend-overlay
+                className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full" //mix-blend-overlay
                 //src="collaborative-mi/assets/photos/banner.jpg"
                 src="assets/photos/banner.jpg"
                 //src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg"
