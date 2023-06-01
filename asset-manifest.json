@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/collaborative-mi/static/css/main.78297599.css",
-    "main.js": "/collaborative-mi/static/js/main.97179b99.js",
+    "main.js": "/collaborative-mi/static/js/main.676a3aae.js",
     "index.html": "/collaborative-mi/index.html",
     "main.78297599.css.map": "/collaborative-mi/static/css/main.78297599.css.map",
-    "main.97179b99.js.map": "/collaborative-mi/static/js/main.97179b99.js.map"
+    "main.676a3aae.js.map": "/collaborative-mi/static/js/main.676a3aae.js.map"
   },
   "entrypoints": [
     "static/css/main.78297599.css",
-    "static/js/main.97179b99.js"
+    "static/js/main.676a3aae.js"
   ]
 }
