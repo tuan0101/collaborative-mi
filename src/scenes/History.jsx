@@ -5,7 +5,7 @@ const History = ({ setSelectedPage }) => {
       id="history"
       className="text-center mt-8 md:h-full mb-10"
     >
-        <h1 className="md:text-5xl xs:text-3xl font-playfair"> OUR HISTORY</h1>
+        <h1 className="md:text-5xl xs:text-3xl font-playfair font-semibold"> Our History</h1>
         <div className="md:mt-8 xs:mt-4 justify-center">
             <img
             alt="profile"

@@ -12,3 +12,7 @@ body,
   background-color: #010026;
   @apply text-white;
 }
+.text-stroke-black {
+  -webkit-text-stroke: 1.5px black;
+  color: white;
+}

@@ -30,8 +30,8 @@ const AboutHistory = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-5xl font-playfair z-10 text-center md:text-center">
-            Our History
+          <p className="text-4xl font-playfair font-semibold z-10 text-center md:text-center">
+            Our <span className="text-red">History</span> 
           </p>
 
           <p className="my-2 text-sm text-center md:text-center">

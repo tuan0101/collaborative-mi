@@ -18,20 +18,21 @@ const Donation = ({ setSelectedPage }) => {
                     //src="assets/photos/background.jpg"
                     src="https://images.pexels.com/photos/6994806/pexels-photo-6994806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 />
-                <div className="absolute md:top-[20%] xs:top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2
-                    lg:text-5xl md:text-4xl xs:text-2xl font-mono font-semibold">
+                <div className="absolute sm:top-[20%] xs:top-[10%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2
+                    lg:text-5xl md:text-4xl xs:text-2xl font-mono font-semibold bg-gray-900">
                     <p className="">
                         Join Our Mission
                     </p>
 
                 </div>
-                <div className="absolute w-[80%] top-[35%] left-1/2 -translate-x-1/2 -translate-y-1/2
-                    lg:text-3xl md:text-2xl sm:text-xl xs:text-sm font-mono text-center">
+                <div className="absolute w-[80%] top-[35%] xs:top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2
+                    lg:text-3xl md:text-2xl sm:text-xl xs:text-sm text-xs font-mono font-bold text-center bg-gray-900">
                     <p className="">
                         Once again, thank you for your kindness and generosity. We are honored to have your support, and we couldn't be more grateful. Your compassion and belief in our cause inspire us to continue our mission with renewed determination.
                     </p>
-
+                   
                 </div>
+
                 {/* <AnchorLink
                             className="absolute top-[35%] left-1/2 -translate-x-1/2 -translate-y-1/2
                 bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
@@ -41,7 +42,7 @@ const Donation = ({ setSelectedPage }) => {
                         >
                             Learn More
                         </AnchorLink> */}
-                <div className="absolute md:top-[55%] xs:top-[65%] w-[80%]">
+                <div className="absolute md:top-[55%] top-[65%] w-[80%]">
                     <motion.div
                         initial="hidden"
                         whileInView="visible"
