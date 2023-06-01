@@ -53,16 +53,16 @@ function App() {
       <Landing setSelectedPage={setSelectedPage} />
 
       <LineGradient />
-      <div  className="pb-12">
+      <div  className="pb-4">
         <Youtube 
           selectedPage={selectedPage} setSelectedPage={setSelectedPage}
         />
       </div>
 
-      <div className="text-5xl font-playfair z-10 text-center pt-5">
+      <div className="text-5xl font-playfair z-10 text-center py-5">
         About Us
       </div>
-      <div className="w-5/6 mx-auto h-[65%] xs:mt-2">
+      <div className="w-5/6 mx-auto xs:mt-2">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -71,8 +71,8 @@ function App() {
           <AboutStaff setSelectedPage={setSelectedPage}/>
         </motion.div>
       </div>
-      <LineGradient />
-      <div className="w-[90%] mx-auto h-[60%] xs:mt-2">
+
+      <div className="w-[90%] mx-auto  m-10">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -81,8 +81,8 @@ function App() {
           <AboutHistory setSelectedPage={setSelectedPage}/>
         </motion.div>
       </div>
-      <LineGradient />
-      <div className="w-5/6 mx-auto h-[65%] xs:mt-2">
+      
+      <div className="w-5/6 mx-auto mb-10">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"

@@ -10,8 +10,9 @@ const Landing = ({ setSelectedPage }) => {
             <img
                 alt="profile"
                 className="hover:filter hover:saturate-200 transition duration-500 z-10  " //mix-blend-overlay
-                //src="assets/photos/background.jpg"
-                src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg"
+                //src="collaborative-mi/assets/photos/banner.jpg"
+                src="assets/photos/banner.jpg"
+                //src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg"
               />
               <div className="absolute top-[15%] w-[80%]">
               <motion.div
