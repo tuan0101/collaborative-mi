@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import useMediaQuery from "../../hooks/useMediaQuery";
+import LineGradient from "../../hooks/LineGradient";
+
 
 const AboutHistory = ({ setSelectedPage }) => {
   return (
@@ -9,16 +12,16 @@ const AboutHistory = ({ setSelectedPage }) => {
     >
       {/* IMAGE SECTION */}
       <div className="sm:flex sm:justify-end flex justify-center basis-[50%]">
-          <div>
-            <img
-              alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 max-w-[400px] md:max-w-[500px]"
-              src="collaborative-mi/assets/photos/history.jpg"
-            />
-          </div>
-    </div>
+        <div>
+          <img
+            alt="profile"
+            className="hover:filter hover:saturate-200 transition duration-500 z-10 max-w-[400px] md:max-w-[500px]"
+            src="collaborative-mi/assets/photos/history.jpg"
+          />
+        </div>
+      </div>
       {/* MAIN TEXT */}
-      <div className="z-30 basis-2/5">
+      <div className="z-30 basis-2/5 text-center">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -30,11 +33,14 @@ const AboutHistory = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-4xl font-playfair font-semibold z-10 text-center md:text-center">
-            Our <span className="text-red">History</span> 
-          </p>
+          <div className="text-4xl font-playfair font-semibold w-fit inline-block">
+            <p className="mb-2">
+              Our <span className="text-red">History</span>
+            </p >
+            <LineGradient width="w-[60%]" />
+          </div>
 
-          <p className="my-2 text-sm text-center md:text-center">
+          <p className="my-2 text-sm ">
             Learn about what we've accomplished so far.
           </p>
         </motion.div>

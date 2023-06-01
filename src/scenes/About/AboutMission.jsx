@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import LineGradient from "../../hooks/LineGradient";
 
 const AboutMission = ({ setSelectedPage }) => {
   return (
@@ -18,7 +19,7 @@ const AboutMission = ({ setSelectedPage }) => {
           </div>
     </div>
       {/* MAIN TEXT */}
-      <div className="z-30 ">
+      <div className="z-30 text-center">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -30,10 +31,12 @@ const AboutMission = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-5xl font-playfair z-10 text-center md:text-center">
-            Our Misson
-          </p>
-
+          <div className="text-4xl font-playfair font-semibold w-fit inline-block">
+            <p className="mb-2">
+              Our <span className="text-red">Mission</span>
+            </p >
+            <LineGradient width="w-[60%]" />
+          </div>
           <p className="my-2 text-sm text-center md:text-center">
             Come and join us on our journey
           </p>
