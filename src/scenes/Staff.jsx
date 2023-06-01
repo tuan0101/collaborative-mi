@@ -4,7 +4,7 @@ const Staff = () => {
   return (
     <section id="staff" className="pt-10 pb-24">
       <div>
-        <h1 className="md:text-5xl xs:text-4xl text-center font-playfair font-semibold my-5"> Our Staff</h1>
+        <h1 className="md:text-5xl xs:text-4xl text-center font-playfair font-semibold text-red my-5"> Our Staff</h1>
       </div>
 
       {/* SKILLS */}

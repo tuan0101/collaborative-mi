@@ -10,7 +10,7 @@ const Mission = ({ setSelectedPage }) => {
 
         >
             <div>
-                <h1 className="md:text-5xl xs:text-3xl text-center font-playfair font-semibold my-5"> Our Mission</h1>
+                <h1 className="md:text-5xl xs:text-3xl text-center font-playfair font-semibold text-red my-5"> Our Mission</h1>
             </div>
             
             <div className="md:flex md:justify-between md:items-center gap-8 md:h-full h-full">

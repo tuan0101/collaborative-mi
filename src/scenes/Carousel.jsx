@@ -20,8 +20,8 @@ export default function Carousel({
   }, [])
   return (
     <div>
-      <div className="lg:text-5xl md:text-4xl xs:text-3xl text-center font-playfair text-rose-300 pb-10">
-          MOMENTS OF HOPE: OUR JOURN
+      <div className="md:text-5xl xs:text-3xl text-center font-playfair font-semibold text-red pb-10">
+          Moments of Hope: Our Journey
       </div>
 
       <div className="overflow-hidden relative h-full rounded-2xl">
