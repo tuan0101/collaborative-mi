@@ -14,8 +14,8 @@ const History = ({ setSelectedPage }) => {
             />
         </div>
         <div>
-            <h3 className="md:text-4xl xs:text-2xl bold pt-3 pb-4 font-mono">The Journey</h3>
-            <div className="text-center font-thin w-[82%] mx-auto text-gray-300">
+            <h3 className="md:text-4xl xs:text-2xl bold pt-3 pb-4 font-playfair font-semibold">The Journey</h3>
+            <div className="indent-8 text-start w-[82%] mx-auto">
                 <p className="pt-2">
                     Our non-profit organization has been dedicated to supporting underserved Vietnamese communities in Vietnam. With a clear mission to uplift and empower those in need, we have worked tirelessly to address the challenges faced by these communities. 
                 </p>
