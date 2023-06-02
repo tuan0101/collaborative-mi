@@ -41,15 +41,15 @@ const Mission = ({ setSelectedPage }) => {
                             The <span className="text-red">Goal</span>                            
                         </p>
                         {isAboveLarge? (<LineGradient width="w-1/4" />) :("") }
-                        <p className="mt-4 mb-7 text-sm text-center md:text-start">
-                            Our mission is to provide aid to Vietnamese communities with <br />
-                            limited access to resources through empowerment and advocacy. <br />
-                            We thrive to promote social, economic, and political equality. <br />
-                            Through collaborative partnerships, education, and advocacy, <br />
-                            we work to eliminate systemic barriers and promote policies <br />
-                            that promote fairness, justice, and inclusion. Our vision is <br />
-                            a society where all individuals have the opportunity to thrive <br />
-                            and reach their full potential, and where diversity <br />
+                        <p className="mt-4 mb-7 text-sm text-start indent-8 w-4/5 mx-auto md:w-full md:pr-10">
+                            Our mission is to provide aid to Vietnamese communities with 
+                            limited access to resources through empowerment and advocacy. 
+                            We thrive to promote social, economic, and political equality. 
+                            Through collaborative partnerships, education, and advocacy, 
+                            we work to eliminate systemic barriers and promote policies 
+                            that promote fairness, justice, and inclusion. Our vision is 
+                            a society where all individuals have the opportunity to thrive 
+                            and reach their full potential, and where diversity 
                             is celebrated and valued.
                         </p>
                     </motion.div>
