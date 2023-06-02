@@ -11,7 +11,7 @@ const Staff = () => {
       <div className="md:flex mt-16 gap-32 ">
         {/* Thien Huynh */}
         <motion.div
-          className="md:w-1/3 lg:ml-10 mt-10 sm:mt-0"
+          className="md:w-1/3 lg:ml-10 mt-10 md:mt-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -41,7 +41,7 @@ const Staff = () => {
 
         {/* INNOVATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10 sm:mt-0"
+          className="md:w-1/3 mt-10 md:mt-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -68,7 +68,7 @@ const Staff = () => {
         </motion.div>
         {/* Vitaly */}
         <motion.div
-          className="md:w-1/3 lg:mr-10 mt-10 sm:mt-0"
+          className="md:w-1/3 lg:mr-10 mt-10 md:mt-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -97,7 +97,7 @@ const Staff = () => {
       <div className="md:flex mt-16 gap-32">
         {/* Tam */}
         <motion.div
-          className="w-[100%] mt-10 sm:mt-0" //change this to 2/3 when adding more member
+          className="w-[100%] mt-10 md:mt-0" //change this to 2/3 when adding more member
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
