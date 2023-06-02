@@ -2,16 +2,16 @@ import { motion } from "framer-motion";
 
 const Staff = () => {
   return (
-    <section id="staff" className="pt-10 pb-24">
+    <section id="staff" className="pt-10 pb-24 font-playfair font-semibold">
       <div>
-        <h1 className="md:text-5xl xs:text-4xl text-center font-playfair font-semibold text-red my-5"> Our Staff</h1>
+        <h1 className="md:text-5xl text-3xl text-center font-playfair font-semibold text-red my-5"> Our Staff</h1>
       </div>
 
-      {/* SKILLS */}
-      <div className="md:flex mt-16 gap-32">
+      {/* STAFFS */}
+      <div className="md:flex mt-16 gap-32 ">
         {/* Thien Huynh */}
         <motion.div
-          className="md:w-1/3 lg:ml-10 md:mt-0 xs:mt-10"
+          className="md:w-1/3 lg:ml-10 mt-10 sm:mt-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -29,11 +29,11 @@ const Staff = () => {
           </div>
           <div className="text-center object-center">
 
-            <p className="mt-5 font-bold">
+            <p className="mt-5 ">
               Thien Huynh
             </p>
             <p className="mt-2 font-thin text-gray-400">
-              president
+              President
             </p>
           </div>
 
@@ -41,7 +41,7 @@ const Staff = () => {
 
         {/* INNOVATIVE */}
         <motion.div
-          className="md:w-1/3 md:mt-0 xs:mt-10"
+          className="md:w-1/3 mt-10 sm:mt-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -68,7 +68,7 @@ const Staff = () => {
         </motion.div>
         {/* Vitaly */}
         <motion.div
-          className="md:w-1/3 lg:mr-10 md:mt-0 xs:mt-10"
+          className="md:w-1/3 lg:mr-10 mt-10 sm:mt-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -97,7 +97,7 @@ const Staff = () => {
       <div className="md:flex mt-16 gap-32">
         {/* Tam */}
         <motion.div
-          className="w-[100%] md:mt-0 xs:mt-10" //change this to 2/3 when adding more member
+          className="w-[100%] mt-10 sm:mt-0" //change this to 2/3 when adding more member
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
