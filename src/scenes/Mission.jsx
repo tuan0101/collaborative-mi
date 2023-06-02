@@ -41,7 +41,7 @@ const Mission = ({ setSelectedPage }) => {
                             The <span className="text-red">Goal</span>                            
                         </p>
                         {isAboveLarge? (<LineGradient width="w-1/4" />) :("") }
-                        <p className="mt-4 mb-7 text-sm text-start indent-8 w-4/5 mx-auto  sm:mx-0 sm:pr-10">
+                        <p className="mt-4 mb-7 text-sm text-start indent-8 w-4/5 mx-auto  md:mx-0 md:pr-10">
                             Our mission is to provide aid to Vietnamese communities with 
                             limited access to resources through empowerment and advocacy. 
                             We thrive to promote social, economic, and political equality. 
