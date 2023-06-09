@@ -59,7 +59,7 @@ function App() {
         />
       </div>
 
-      <div className="bg-white">
+      
         <div className="text-5xl font-playfair font-semibold text-red z-10 text-center py-5 ">
           About Us
         </div>
@@ -92,10 +92,11 @@ function App() {
             <AboutMission setSelectedPage={setSelectedPage} />
           </motion.div>
         </div>
-      </div>
+      
 
 
       <LineGradient />
+      <div className="bg-white">
       <div className="py-10 w-[70%]  mx-auto" >
         <Carousel>
           {[
@@ -104,6 +105,8 @@ function App() {
           ]}
         </Carousel>
       </div>
+      </div>
+
 
       <LineGradient />
       <div className="w-[90%] mx-auto xs:mt-2">
